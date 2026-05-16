@@ -16,7 +16,7 @@ void    *ft_calloc(size_t nmemb, size_t size)
     return (ptr);
 }
 
-int main(void)
+/* int main(void)
 {
     char    *str;
     int     *arr;
@@ -42,4 +42,4 @@ int main(void)
     free(str);
 
     return (0);
-}
+} */
