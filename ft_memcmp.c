@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Compares num bytes of ptr1 and ptr2, returns 0 if equal
 int ft_memcmp(const void *ptr1, const void *ptr2, size_t num)
 {
     const unsigned char   *p1;

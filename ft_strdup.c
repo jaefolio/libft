@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Allocates and returns a duplicate of src string
 char	*ft_strdup(char *src)
 {
 	char	*dest;

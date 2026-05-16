@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Returns pointer to first occurrence of c in s, NULL if not found
 char    *ft_strchr(const char *s, int c)
 {
     unsigned char  c2;

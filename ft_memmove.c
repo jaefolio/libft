@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Copies n bytes from src to dest (handles overlap safely), returns dest
 void    *ft_memmove(void *dest, const void *src, size_t n)
 {
     size_t  i;

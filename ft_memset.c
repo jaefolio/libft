@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Fills len bytes of ptr with value x, returns ptr
 void    *ft_memset(void *ptr, int x, size_t len)
 {
     unsigned char *dst;

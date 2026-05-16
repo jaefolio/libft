@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Appends src to dst, returns total length it tried to create
 size_t  ft_strlcat(char *dst, const char *src, size_t size)
 {
     size_t  i;

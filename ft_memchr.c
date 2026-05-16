@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Finds first occurrence of c in first n bytes of s, returns pointer or NULL
 void    *ft_memchr(const void *s, int c, size_t n)
 {
     size_t  i;

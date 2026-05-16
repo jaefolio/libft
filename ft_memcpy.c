@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Copies n bytes from src to dest (no overlap handling), returns dest
  void   *ft_memcpy(void *dest, const void *src, size_t n)
  {
     size_t i;

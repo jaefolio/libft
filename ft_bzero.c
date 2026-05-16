@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Writes n zero bytes to memory area s
 void    ft_bzero(void *s, size_t n)
 {
     unsigned char *p;

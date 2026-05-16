@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Converts a string to an integer, skips whitespace, handles +/-
 int	ft_atoi(const char *str)
 {
 	int	i;

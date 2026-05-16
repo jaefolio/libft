@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Returns pointer to last occurrence of c in s, NULL if not found
 char    *ft_strrchr(const char *s, int c)
 {
     const char  *s2;

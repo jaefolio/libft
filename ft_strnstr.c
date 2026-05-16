@@ -1,5 +1,6 @@
 #include "libft.h"
 
+// Finds to_find in str within len bytes, returns pointer to match or NULL
 char    *ft_strnstr(const char *str, const char *to_find, size_t len)
 {
     size_t  i;
