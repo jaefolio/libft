@@ -1,6 +1,6 @@
 #include "libft.h"
 
-// Allocates nmemb*size bytes, zeroes them, returns pointer or NULL on fail
+// return 1 if c is an alphabet
 int ft_isalpha(int c)
 {
     if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
