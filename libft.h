@@ -30,6 +30,10 @@ char		*ft_strdup(char *src);
 char		*ft_strchr(const char *s, int c);
 char		*ft_strrchr(const char *s, int c);
 char		*ft_strnstr(const char *str, const char *to_find, size_t len);
+//additional functions
+char    *ft_substr(char const *s, unsigned int start, size_t len);
+char    *ft_strjoin(char const *s1, char const *s2);
+char    *ft_strtrim(char const *s1, char const *set);
 //set value for size_max
 #ifndef SIZE_MAX
 # define SIZE_MAX ((size_t)-1)
